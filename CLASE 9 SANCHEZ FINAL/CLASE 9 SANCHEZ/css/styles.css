@@ -1,0 +1,173 @@
+/**CSS**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 20px;
+}
+
+div img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.pseudoclase:hover{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    transform: rotate(25deg);
+    transition: transform 200ms ease;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
+.contenedor{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2px;
+    max-width: 1000px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.contenedor2{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor2 img{
+    margin: 0 auto;
+    width: 750px;
+    height: 650px;
+}
+
+.padre{
+    background-color: rgb(224, 75, 75);
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 2px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.card{
+    width: 70%;
+    border:1px solid black;
+    padding: 10px;
+    background-color:rgb(230, 230, 230);
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+.card2{
+    border: 2px solid #70a3e0;
+    padding: 0px 10px 15px 10px;
+    background-color:gold;
+    border-radius: 20px;
+}
+
+.card2 img{
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+section{
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(161, 161, 161);
+    height: 100px;
+}
+
+.river {
+    text-decoration: none;
+    color: crimson;
+}
+
+/*GRILLA-------------------------------------------------------------------------*/
+
+.parent {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: rgb(255, 248, 189);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+    
+    .div1 {
+        grid-area: 1 / 1 / 2 / 4; 
+    }
+
+    .div1 img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .div2 { 
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div2 img{
+     
+        width: 100%;
+    }
+
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3; 
+    }
+
+    .div3 img{
+        width: 100%;
+    }
+
+    .div4 { 
+        grid-area: 2 / 3 / 3 / 4; 
+    }
+
+    .div4 img{
+        width: 100%;
+    }
+
+/*GRILLA-------------------------------------------------------------------------*/
+
+@media screen and (max-width: 576px){
+    header {
+        flex-direction: column;
+        align-items: start;
+        height: 250px;
+    }
+}
+
+/*Santino Tinganelli/*
